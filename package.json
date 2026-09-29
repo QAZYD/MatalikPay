@@ -1,0 +1,35 @@
+{
+  "name": "matalikpay",
+  "version": "1.0.0",
+  "description": "The project is an educational simulation that teaches the developer how might a fintech work in enterprise settings.",
+  "main": "index.js",
+  "scripts": {
+    "dev": "tsx watch src/app.ts",
+    "build": "tsc", 
+    "start": "node dist/app.js",
+    "test": "jest",
+    "lint": "eslint ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/QAZYD/MatalikPay.git"
+  },
+  "keywords": [],
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/QAZYD/MatalikPay/issues"
+  },
+  "homepage": "https://github.com/QAZYD/MatalikPay#readme",
+  "dependencies": {
+    "express": "^5.2.1"
+  },
+  "devDependencies": {
+    "@types/express": "^5.0.6",
+    "@types/node": "^26.6.3",
+    "tsx": "^4.23.15",
+    "typescript": "^7.0.2"
+  },
+  "allowScripts": {
+    "esbuild@0.28.2": true
+  }
+}
